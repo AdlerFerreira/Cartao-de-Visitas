@@ -1,7 +1,7 @@
 @font-face {
     font-family: Azonix;
     src: url(../fonts/Azonix.otf)
-}
+    }
 
 @font-face {
     font-family: Acqua;
@@ -10,6 +10,7 @@
 
 .nome {
     font-family: Azonix, Acqua, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 html::-webkit-scrollbar {
@@ -38,6 +39,7 @@ html {
     background-repeat: no-repeat; */
     color: white;
     text-align: center;
+    text-shadow: 3px 3px #000000;
    
     
 }
@@ -94,6 +96,7 @@ p {
     border: 0px;
     margin: 2px;
     vertical-align: middle;
+    
 }
 
 footer {
@@ -114,4 +117,5 @@ header {
 
 img {
     border: solid rgb(255, 255, 255) 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
